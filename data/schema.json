@@ -1,0 +1,22 @@
+{
+  "_comment": "Scheme record schema for Yojana Saathi",
+  "id": "pm-kisan",
+  "name": {"hi": "पीएम किसान सम्मान निधि", "en": "PM-KISAN Samman Nidhi"},
+  "category": "agriculture",
+  "level": "central",
+  "states": ["all"],
+  "benefit": {"hi": "₹6,000 प्रति वर्ष (3 किस्तों में)", "en": "₹6,000/year in 3 installments"},
+  "rules": [
+    {"field": "occupation", "op": "in", "value": ["farmer"]},
+    {"field": "land_owned", "op": "eq", "value": true},
+    {"field": "income_tax_payer", "op": "eq", "value": false},
+    {"field": "govt_employee", "op": "eq", "value": false}
+  ],
+  "rule_explain": {
+    "hi": "किसान + खुद की ज़मीन + इनकम टैक्स नहीं देते + सरकारी नौकरी नहीं",
+    "en": "Farmer + own cultivable land + not an income-tax payer + not a govt employee"
+  },
+  "documents": {"hi": ["आधार कार्ड", "ज़मीन के कागज़ (खतौनी)", "बैंक खाता"], "en": ["Aadhaar", "Land records", "Bank account"]},
+  "apply": {"hi": "pmkisan.gov.in पर खुद, या नज़दीकी CSC केंद्र", "en": "Self-apply at pmkisan.gov.in or nearest CSC center"},
+  "source_url": "https://pmkisan.gov.in"
+}

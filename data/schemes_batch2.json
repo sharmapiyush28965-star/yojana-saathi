@@ -1,0 +1,1199 @@
+[
+ {
+  "apply": {
+   "en": "Apply at Gram Panchayat/Block office, or online at nsap.nic.in",
+   "hi": "ग्राम पंचायत/ब्लॉक कार्यालय में फॉर्म भरें, या nsap.nic.in पर ऑनलाइन"
+  },
+  "benefit": {
+   "en": "₹200/month pension (60–79 yrs), ₹500/month (80+ yrs)",
+   "hi": "60–79 साल पर ₹200/माह, 80+ पर ₹500/माह पेंशन"
+  },
+  "benefit_value": 2400,
+  "category": "pension",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "BPL ration card",
+    "Age proof (voter ID/birth certificate)",
+    "Bank passbook"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "BPL राशन कार्ड",
+    "उम्र का प्रमाण (वोटर ID/जन्म प्रमाणपत्र)",
+    "बैंक पासबुक"
+   ]
+  },
+  "id": "ignoaps",
+  "level": "central",
+  "name": {
+   "en": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+   "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना"
+  },
+  "rule_explain": {
+   "en": "Age 60+, and the household must be below the poverty line (BPL). This is the central share; states add their own top-up.",
+   "hi": "60 साल या ज़्यादा उम्र हो, और परिवार BPL (गरीबी रेखा से नीचे) हो। यह केंद्र का हिस्सा है — राज्य अलग से जोड़ते हैं।"
+  },
+  "rules": [
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 60
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   }
+  ],
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2187327&reg=3&lang=2",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Apply at Gram Panchayat/Block office, or online at nsap.nic.in",
+   "hi": "ग्राम पंचायत/ब्लॉक कार्यालय में फॉर्म भरें, या nsap.nic.in पर ऑनलाइन"
+  },
+  "benefit": {
+   "en": "₹300/month pension for widows (₹500/month from age 80)",
+   "hi": "विधवा महिला को ₹300/माह पेंशन (80+ पर ₹500/माह)"
+  },
+  "benefit_value": 3600,
+  "category": "pension",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "Husband's death certificate",
+    "BPL ration card",
+    "Age proof",
+    "Bank passbook"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "पति का मृत्यु प्रमाणपत्र",
+    "BPL राशन कार्ड",
+    "उम्र का प्रमाण",
+    "बैंक पासबुक"
+   ]
+  },
+  "id": "ignwps",
+  "level": "central",
+  "name": {
+   "en": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+   "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना"
+  },
+  "rule_explain": {
+   "en": "Must be a widowed woman aged 40–79 from a BPL household. (Rises to ₹500/month at age 80.)",
+   "hi": "विधवा महिला हो, उम्र 40 से 79 साल हो, और परिवार BPL हो। (80 साल पर रकम ₹500/माह हो जाती है।)"
+  },
+  "rules": [
+   {
+    "field": "gender",
+    "op": "eq",
+    "value": "female"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 40
+   },
+   {
+    "field": "age",
+    "op": "lte",
+    "value": 79
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   }
+  ],
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2187327&reg=3&lang=2",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Apply at Gram Panchayat/Block office, or online at nsap.nic.in",
+   "hi": "ग्राम पंचायत/ब्लॉक कार्यालय में फॉर्म भरें, या nsap.nic.in पर ऑनलाइन"
+  },
+  "benefit": {
+   "en": "₹300/month pension for 80%+ disability",
+   "hi": "80%+ विकलांगता पर ₹300/माह पेंशन"
+  },
+  "benefit_value": 3600,
+  "category": "pension",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "Disability certificate from government medical board (80%+)",
+    "BPL ration card",
+    "Age proof",
+    "Bank passbook"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "विकलांगता प्रमाणपत्र (सरकारी अस्पताल से, 80%+)",
+    "BPL राशन कार्ड",
+    "उम्र का प्रमाण",
+    "बैंक पासबुक"
+   ]
+  },
+  "id": "igndps",
+  "level": "central",
+  "name": {
+   "en": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+   "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना"
+  },
+  "rule_explain": {
+   "en": "Age 18+, disability of 80% or above (government medical board certificate), and BPL household.",
+   "hi": "उम्र 18+ हो, विकलांगता 80% या ज़्यादा हो (सरकारी अस्पताल का प्रमाणपत्र), और परिवार BPL हो।"
+  },
+  "rules": [
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 18
+   },
+   {
+    "field": "age",
+    "op": "lte",
+    "value": 79
+   },
+   {
+    "field": "disability",
+    "op": "gte",
+    "value": 80
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   }
+  ],
+  "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU2047_dUDSES.pdf?source=pqals",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "No application needed — take your ration card to the nearest fair price shop",
+   "hi": "आवेदन की ज़रूरत नहीं — राशन कार्ड लेकर नज़दीकी सरकारी राशन दुकान पर जाएं"
+  },
+  "benefit": {
+   "en": "5 kg free foodgrain per person per month",
+   "hi": "हर व्यक्ति को हर महीने 5 किलो गेहूं/चावल बिल्कुल मुफ्त"
+  },
+  "benefit_value": 1800,
+  "category": "food",
+  "documents": {
+   "en": [
+    "Ration card (AAY or PHH)",
+    "Aadhaar card linked to the ration card"
+   ],
+   "hi": [
+    "राशन कार्ड (AAY या PHH)",
+    "आधार कार्ड (राशन कार्ड से जुड़ा)"
+   ]
+  },
+  "id": "pmgkay",
+  "level": "central",
+  "name": {
+   "en": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)",
+   "hi": "प्रधानमंत्री गरीब कल्याण अन्न योजना"
+  },
+  "rule_explain": {
+   "en": "Only NFSA ration-card holders (Antyodaya or Priority Household families). No separate application — free grain comes through your existing ration card.",
+   "hi": "जिसका नाम NFSA राशन कार्ड में है (अंत्योदय या PHH परिवार), वही पाएगा। अलग आवेदन नहीं — राशन कार्ड से ही दुकान पर मुफ्त अनाज मिलता है।"
+  },
+  "rules": [],
+  "source_url": "https://dfpd.gov.in",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "On scholarships.gov.in (National Scholarship Portal) or your state's portal",
+   "hi": "scholarships.gov.in (National Scholarship Portal) या राज्य के पोर्टल पर"
+  },
+  "benefit": {
+   "en": "Annual scholarship for SC students in classes 9–10 (about ₹3,500/year)",
+   "hi": "कक्षा 9–10 के SC छात्रों को हर साल छात्रवृत्ति (लगभग ₹3,500/साल)"
+  },
+  "benefit_value": 3500,
+  "category": "education",
+  "documents": {
+   "en": [
+    "Caste certificate",
+    "Income certificate",
+    "Aadhaar card",
+    "School bonafide certificate",
+    "Bank account details"
+   ],
+   "hi": [
+    "जाति प्रमाणपत्र",
+    "आय प्रमाणपत्र",
+    "आधार कार्ड",
+    "स्कूल का बोनाफाइड प्रमाणपत्र",
+    "बैंक खाते का विवरण"
+   ]
+  },
+  "id": "pre-matric-scholarship-sc",
+  "level": "central",
+  "name": {
+   "en": "Pre-Matric Scholarship Scheme for SC Students",
+   "hi": "अनुसूचित जाति प्री-मैट्रिक छात्रवृत्ति"
+  },
+  "rule_explain": {
+   "en": "SC student in class 9 or 10, with parents' annual income not exceeding ₹2.5 lakh.",
+   "hi": "SC वर्ग के हों, कक्षा 9 या 10 में पढ़ते हों, और माता-पिता की सालाना आय ₹2.5 लाख से ज़्यादा न हो।"
+  },
+  "rules": [
+   {
+    "field": "caste_category",
+    "op": "eq",
+    "value": "SC"
+   },
+   {
+    "field": "student",
+    "op": "eq",
+    "value": true
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 250000
+   }
+  ],
+  "source_url": "https://scholarships.gov.in",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "On scholarships.gov.in (National Scholarship Portal)",
+   "hi": "scholarships.gov.in (National Scholarship Portal) पर"
+  },
+  "benefit": {
+   "en": "Class 11 to PhD — full tuition fee reimbursement + ₹230–₹1,200/month maintenance allowance",
+   "hi": "कक्षा 11 से PhD तक — पूरी ट्यूशन फीस वापसी + ₹230–₹1,200/माह गुजारा भत्ता"
+  },
+  "benefit_value": 14400,
+  "category": "education",
+  "documents": {
+   "en": [
+    "Caste certificate",
+    "Income certificate",
+    "Aadhaar card",
+    "Previous class marksheet",
+    "Institution bonafide certificate",
+    "Bank account details"
+   ],
+   "hi": [
+    "जाति प्रमाणपत्र",
+    "आय प्रमाणपत्र",
+    "आधार कार्ड",
+    "पिछली कक्षा की मार्कशीट",
+    "संस्थान का बोनाफाइड प्रमाणपत्र",
+    "बैंक खाते का विवरण"
+   ]
+  },
+  "id": "post-matric-scholarship-sc",
+  "level": "central",
+  "name": {
+   "en": "Post-Matric Scholarship for SC Students (PMS-SC)",
+   "hi": "अनुसूचित जाति पोस्ट-मैट्रिक छात्रवृत्ति"
+  },
+  "rule_explain": {
+   "en": "SC student studying in a recognised institution after class 10, with parents' annual income not exceeding ₹2.5 lakh.",
+   "hi": "SC वर्ग के हों, कक्षा 10 के बाद मान्यता प्राप्त संस्थान में पढ़ते हों, और माता-पिता की सालाना आय ₹2.5 लाख से ज़्यादा न हो।"
+  },
+  "rules": [
+   {
+    "field": "caste_category",
+    "op": "eq",
+    "value": "SC"
+   },
+   {
+    "field": "student",
+    "op": "eq",
+    "value": true
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 250000
+   }
+  ],
+  "source_url": "https://scholarships.gov.in",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "First take your state's NMMS exam in class 8; after selection, apply on scholarships.gov.in",
+   "hi": "पहले कक्षा 8 में राज्य की NMMS परीक्षा दें; चयन के बाद scholarships.gov.in पर"
+  },
+  "benefit": {
+   "en": "₹12,000/year for classes 9–12 after clearing the merit test",
+   "hi": "मेरिट टेस्ट पास करने पर कक्षा 9–12 तक ₹12,000/साल"
+  },
+  "benefit_value": 12000,
+  "category": "education",
+  "documents": {
+   "en": [
+    "Income certificate",
+    "Class 7 marksheet",
+    "Aadhaar card",
+    "Caste certificate (if applicable)",
+    "Bank account details"
+   ],
+   "hi": [
+    "आय प्रमाणपत्र",
+    "कक्षा 7 की मार्कशीट",
+    "आधार कार्ड",
+    "जाति प्रमाणपत्र (लागू हो तो)",
+    "बैंक खाते का विवरण"
+   ]
+  },
+  "id": "nmms",
+  "level": "central",
+  "name": {
+   "en": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+   "hi": "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति योजना"
+  },
+  "rule_explain": {
+   "en": "Class 8 student in a government/government-aided school, 55%+ in class 7 (50% for SC/ST), parental income under ₹3.5 lakh, and must clear the state NMMS exam. Private/KV/Navodaya students are not eligible.",
+   "hi": "कक्षा 8 में सरकारी/सरकारी सहायता प्राप्त स्कूल में पढ़ते हों, कक्षा 7 में 55%+ अंक हों (SC/ST: 50%), आय ₹3.5 लाख से कम हो, और राज्य का NMMS टेस्ट पास करना ज़रूरी है। प्राइवेट/KV/नवोदय के छात्र पात्र नहीं।"
+  },
+  "rules": [
+   {
+    "field": "student",
+    "op": "eq",
+    "value": true
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 350000
+   }
+  ],
+  "source_url": "https://scholarships.gov.in",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "On emrs.tribal.gov.in or your state's tribal education department portal",
+   "hi": "emrs.tribal.gov.in या राज्य के आदिवासी शिक्षा विभाग के पोर्टल पर"
+  },
+  "benefit": {
+   "en": "Free residential schooling for ST children, classes 6–12 (boarding, food, education)",
+   "hi": "ST बच्चों को कक्षा 6–12 तक मुफ़्त आवासीय स्कूली शिक्षा (रहना + खाना + पढ़ाई)"
+  },
+  "benefit_value": 0,
+  "category": "education",
+  "documents": {
+   "en": [
+    "Caste certificate (ST)",
+    "Birth certificate",
+    "Class 5 marksheet",
+    "Domicile certificate",
+    "Aadhaar card"
+   ],
+   "hi": [
+    "जाति प्रमाणपत्र (ST)",
+    "जन्म प्रमाणपत्र",
+    "कक्षा 5 की मार्कशीट",
+    "निवास प्रमाणपत्र",
+    "आधार कार्ड"
+   ]
+  },
+  "id": "emrs",
+  "level": "central",
+  "name": {
+   "en": "Eklavya Model Residential Schools (EMRS)",
+   "hi": "एकलव्य मॉडल आवासीय विद्यालय"
+  },
+  "rule_explain": {
+   "en": "ST student who has passed class 5, aged 10–13 as on 31 March of the admission year. Admission through the EMRS entrance test (EMRSST).",
+   "hi": "ST वर्ग के हों, कक्षा 5 पास की हो, और दाखिले के साल 31 मार्च को उम्र 10–13 साल हो। दाखिला प्रवेश परीक्षा (EMRSST) से होता है।"
+  },
+  "rules": [
+   {
+    "field": "caste_category",
+    "op": "eq",
+    "value": "ST"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 10
+   },
+   {
+    "field": "age",
+    "op": "lte",
+    "value": 13
+   },
+   {
+    "field": "student",
+    "op": "eq",
+    "value": true
+   }
+  ],
+  "source_url": "https://emrs.tribal.gov.in",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Register on the NFDP portal (nfdp.dof.gov.in) or contact your district fisheries department",
+   "hi": "NFDP पोर्टल (nfdp.dof.gov.in) पर रजिस्टर करें या ज़िले के मत्स्य विभाग से संपर्क करें"
+  },
+  "benefit": {
+   "en": "Up to 40% subsidy on fish-farming project cost (up to 60% for women/SC/ST)",
+   "hi": "मछली पालन परियोजना की लागत पर 40% तक सब्सिडी (महिला/SC/ST को 60% तक)"
+  },
+  "benefit_value": 0,
+  "category": "agriculture",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "Caste certificate (for SC/ST)",
+    "Project proposal/estimate",
+    "Bank account details",
+    "Land/pond documents"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "जाति प्रमाणपत्र (SC/ST के लिए)",
+    "परियोजना प्रस्ताव/अनुमान",
+    "बैंक खाते का विवरण",
+    "भूमि/तालाब के कागज़ात"
+   ]
+  },
+  "id": "pmmsy-beneficiary",
+  "level": "central",
+  "name": {
+   "en": "Pradhan Mantri Matsya Sampada Yojana — beneficiary subsidy",
+   "hi": "प्रधानमंत्री मत्स्य संपदा योजना (लाभार्थी सहायता)"
+  },
+  "rule_explain": {
+   "en": "Fisher or fish farmer. Government gives up to 40% of the approved project cost (ponds, hatcheries, boats, nets); up to 60% for women and SC/ST beneficiaries.",
+   "hi": "मछुआरा या मछली किसान हों। तालाब, हैचरी, नाव, जाल जैसे कामों पर सरकार परियोजना लागत का 40% देती है (महिला/SC/ST को 60% तक)। रकम परियोजना पर निर्भर है।"
+  },
+  "rules": [
+   {
+    "field": "occupation",
+    "op": "eq",
+    "value": "fish_farmer"
+   }
+  ],
+  "source_url": "https://pmmsy.dof.gov.in",
+  "states": [
+   "all"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Online at mmsy.hp.gov.in, or through the District Industries Centre (DIC)",
+   "hi": "mmsy.hp.gov.in पोर्टल पर ऑनलाइन, या जिला उद्योग केंद्र (DIC) में"
+  },
+  "benefit": {
+   "en": "Capital subsidy on plant & machinery — 25% men, 30% women, 35% widows; 5% interest subsidy for 3 years on loans up to ₹60 lakh",
+   "hi": "अपना उद्योग/व्यापार शुरू करने पर मशीनरी पर सब्सिडी — पुरुष 25%, महिला 30%, विधवा 35%; ₹60 लाख तक लोन पर 3 साल 5% ब्याज छूट"
+  },
+  "benefit_value": 0,
+  "category": "livelihood",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "Himachali Bonafide certificate",
+    "Bank account details",
+    "Project report/business plan"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "हिमाचली बोनाफाइड प्रमाणपत्र",
+    "बैंक खाते का विवरण",
+    "प्रोजेक्ट रिपोर्ट/व्यापार योजना"
+   ]
+  },
+  "id": "hp-mukhyamantri-swavalamban-yojana",
+  "level": "state",
+  "name": {
+   "en": "Mukhyamantri Swavalamban Yojana (MMSY, HP)",
+   "hi": "मुख्यमंत्री स्वावलंबन योजना"
+  },
+  "rule_explain": {
+   "en": "For unemployed youth of Himachal Pradesh, aged 18–45, bonafide HP resident. (Earlier called Mukhyamantri Yuva Swavalamban Yojana.)",
+   "hi": "हिमाचल के बेरोज़गार युवा के लिए है। उम्र 18–45 साल हो, हिमाचल का स्थायी निवासी हो। (पहले इसका नाम युवा स्वावलंबन योजना था।)"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 18
+   },
+   {
+    "field": "age",
+    "op": "lte",
+    "value": 45
+   },
+   {
+    "field": "occupation",
+    "op": "eq",
+    "value": "unemployed"
+   }
+  ],
+  "source_url": "https://hpkangra.nic.in/mukhyamantri-swavalamban-yojanamsy/",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Online at kalyan.hp.gov.in, or offline at Tehsil/District Welfare Office",
+   "hi": "kalyan.hp.gov.in पर ऑनलाइन, या तहसील/जिला कल्याण कार्यालय में"
+  },
+  "benefit": {
+   "en": "One-time grant of ₹1,50,000 for building a new house on own land (not a loan)",
+   "hi": "अपनी ज़मीन पर नया मकान बनाने के लिए ₹1,50,000 की एकमुश्त मदद (लोन नहीं)"
+  },
+  "benefit_value": 150000,
+  "category": "housing",
+  "documents": {
+   "en": [
+    "Himachali certificate",
+    "Caste certificate",
+    "Income certificate",
+    "Land records (Jamabandi, Tatima)",
+    "Aadhaar card"
+   ],
+   "hi": [
+    "हिमाचली प्रमाणपत्र",
+    "जाति प्रमाणपत्र",
+    "आय प्रमाणपत्र",
+    "ज़मीन के कागज़ (जमाबंदी, ततीमा)",
+    "आधार कार्ड"
+   ]
+  },
+  "id": "hp-swaran-jayanti-ashray-yojana",
+  "level": "state",
+  "name": {
+   "en": "Swaran Jayanti Ashray Yojana (HP)",
+   "hi": "स्वर्ण जयंती आश्रय योजना"
+  },
+  "rule_explain": {
+   "en": "SC/ST/OBC permanent HP resident with annual family income up to ₹50,000, own land in own name, no house already owned; must contribute 25% of construction cost.",
+   "hi": "SC/ST/OBC परिवार का हिमाचल का स्थायी निवासी हो, सालाना आय ₹50,000 से ज़्यादा न हो। ज़मीन अपने नाम पर हो, पहले से मकान न हो, और कुल लागत का 25% खुद देना होता है।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "caste_category",
+    "op": "in",
+    "value": [
+     "SC",
+     "ST",
+     "OBC"
+    ]
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 50000
+   }
+  ],
+  "source_url": "https://kalyan.hp.gov.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Through District Programme Officer (WCD) / CDPO / Anganwadi worker",
+   "hi": "जिला कार्यक्रम अधिकारी (WCD) / CDPO / आंगनवाड़ी कार्यकर्ता के माध्यम से"
+  },
+  "benefit": {
+   "en": "Government deposits ₹1,000 per year in the bank/post office account of BPL children",
+   "hi": "BPL बच्चों के बैंक/डाकघर खाते में सरकार हर साल ₹1,000 जमा करती है"
+  },
+  "benefit_value": 1000,
+  "category": "education",
+  "documents": {
+   "en": [
+    "BPL certificate",
+    "Himachali Bonafide certificate",
+    "Child's birth certificate",
+    "Bank/post office account",
+    "Aadhaar card"
+   ],
+   "hi": [
+    "BPL प्रमाणपत्र",
+    "हिमाचली बोनाफाइड प्रमाणपत्र",
+    "बच्चे का जन्म प्रमाणपत्र",
+    "बैंक/डाकघर खाता",
+    "आधार कार्ड"
+   ]
+  },
+  "id": "hp-mukhyamantri-bal-uddhar-yojana",
+  "level": "state",
+  "name": {
+   "en": "Mukhyamantri Bal Uddhar Yojana (HP)",
+   "hi": "मुख्यमंत्री बाल उद्धार योजना"
+  },
+  "rule_explain": {
+   "en": "Older scheme (2013) for BPL children of Himachal. Note: the newer Mukhyamantri Sukhashray Yojana gives orphans far richer benefits.",
+   "hi": "हिमाचल के BPL परिवारों के बच्चों के लिए पुरानी योजना (2013)। नोट: अनाथ बच्चों के लिए नई मुख्यमंत्री सुखाश्रय योजना कहीं ज़्यादा मदद देती है।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   },
+   {
+    "field": "age",
+    "op": "lte",
+    "value": 18
+   }
+  ],
+  "source_url": "https://himachal.nic.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "District Social Welfare Office / HP e-District portal",
+   "hi": "जिला सामाजिक कल्याण कार्यालय / e-district HP पोर्टल"
+  },
+  "benefit": {
+   "en": "Monthly pension ₹1,150–₹1,700 by disability level; ₹3,000/month for 100% disability",
+   "hi": "विकलांगता के हिसाब से हर महीने ₹1,150–₹1,700 पेंशन; 100% विकलांगता पर ₹3,000/माह"
+  },
+  "benefit_value": 15000,
+  "category": "disability",
+  "documents": {
+   "en": [
+    "Disability certificate",
+    "Himachali Bonafide certificate",
+    "Aadhaar card",
+    "Bank account details"
+   ],
+   "hi": [
+    "विकलांगता प्रमाणपत्र",
+    "हिमाचली बोनाफाइड प्रमाणपत्र",
+    "आधार कार्ड",
+    "बैंक खाते का विवरण"
+   ]
+  },
+  "id": "hp-disability-relief-allowance",
+  "level": "state",
+  "name": {
+   "en": "HP Disability Relief Allowance (state disability pension)",
+   "hi": "हिमाचल दिव्यांग राहत भत्ता"
+  },
+  "rule_explain": {
+   "en": "Permanent HP residents with 40% or more disability. Valid disability certificate required.",
+   "hi": "40% या ज़्यादा विकलांगता वाले हिमाचल के स्थायी निवासी को पेंशन मिलती है। विकलांगता प्रमाणपत्र ज़रूरी है।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "disability",
+    "op": "gte",
+    "value": 40
+   }
+  ],
+  "source_url": "http://himachalpr.gov.in/OneNews.aspx?Language=1&ID=48916",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Panchayat/Municipal Office / District Social Welfare Office",
+   "hi": "पंचायत/नगरपालिका कार्यालय / जिला सामाजिक कल्याण कार्यालय"
+  },
+  "benefit": {
+   "en": "Monthly pension — ₹1,000 (men 60–69), ₹1,500 (women 60–69), ₹1,700 (all 70+)",
+   "hi": "हर महीने पेंशन — 60–69 साल: पुरुष ₹1,000, महिला ₹1,500; 70+ सभी को ₹1,700"
+  },
+  "benefit_value": 15000,
+  "category": "pension",
+  "documents": {
+   "en": [
+    "Age proof (Aadhaar/voter ID)",
+    "Himachali Bonafide certificate",
+    "Bank account details"
+   ],
+   "hi": [
+    "आयु प्रमाण (आधार/वोटर ID)",
+    "हिमाचली बोनाफाइड प्रमाणपत्र",
+    "बैंक खाते का विवरण"
+   ]
+  },
+  "id": "hp-old-age-pension-state",
+  "level": "state",
+  "name": {
+   "en": "HP State Old Age Pension (Social Security Pension)",
+   "hi": "हिमाचल प्रदेश राज्य वृद्धावस्था पेंशन"
+  },
+  "rule_explain": {
+   "en": "HP permanent residents aged 60+. Income limit removed — BPL not required. Distinct from central IGNOAPS (only ₹200, BPL mandatory).",
+   "hi": "60+ उम्र के हिमाचल के स्थायी निवासी। आय सीमा हटा दी गई है — BPL होना ज़रूरी नहीं। (यह केंद्रीय IGNOAPS से अलग है, जहां सिर्फ़ ₹200 मिलता है और BPL ज़रूरी है।)"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 60
+   }
+  ],
+  "source_url": "https://himachal.nic.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Online at edistrict.hp.gov.in, or via Anganwadi worker / CDPO office",
+   "hi": "edistrict.hp.gov.in पर ऑनलाइन, या आंगनवाड़ी कार्यकर्ता / CDPO के माध्यम से"
+  },
+  "benefit": {
+   "en": "₹21,000 fixed deposit in the girl's name at birth; annual scholarships from Class 1 through graduation",
+   "hi": "बेटी के जन्म पर उसके नाम ₹21,000 की FD; कक्षा 1 से स्नातक तक हर साल छात्रवृत्ति"
+  },
+  "benefit_value": 21000,
+  "category": "women",
+  "documents": {
+   "en": [
+    "Daughter's birth certificate",
+    "BPL certificate",
+    "Himachali Bonafide certificate",
+    "Aadhaar of parents and daughter"
+   ],
+   "hi": [
+    "बेटी का जन्म प्रमाणपत्र",
+    "BPL प्रमाणपत्र",
+    "हिमाचली बोनाफाइड प्रमाणपत्र",
+    "माता-पिता और बेटी का आधार कार्ड"
+   ]
+  },
+  "id": "hp-beti-hai-anmol-yojana",
+  "level": "state",
+  "name": {
+   "en": "Beti Hai Anmol Yojana (HP)",
+   "hi": "बेटी है अनमोल योजना"
+  },
+  "rule_explain": {
+   "en": "For daughters of BPL families (permanent HP residents); maximum 2 daughters per family. The girl must not marry before age 18.",
+   "hi": "BPL परिवार की हिमाचली बेटी के लिए। एक परिवार की ज़्यादा से ज़्यादा 2 बेटियां लाभ पा सकती हैं। बेटी की शादी 18 साल से पहले नहीं होनी चाहिए।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   },
+   {
+    "field": "gender",
+    "op": "eq",
+    "value": "female"
+   }
+  ],
+  "source_url": "https://edistrict.hp.gov.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "At the nearest CDPO office or District Programme Officer office",
+   "hi": "नज़दीकी CDPO ऑफिस या जिला कार्यक्रम अधिकारी के पास"
+  },
+  "benefit": {
+   "en": "One-time grant of ₹51,000 for daughter's marriage",
+   "hi": "बेटी की शादी के लिए एक बार ₹51,000 की सहायता"
+  },
+  "benefit_value": 51000,
+  "category": "women",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "Income certificate (from Tehsildar)",
+    "Domicile certificate",
+    "Marriage date proof",
+    "Bank account details"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "आय प्रमाणपत्र (तहसीलदार से)",
+    "निवास प्रमाणपत्र",
+    "शादी की तारीख का प्रमाण",
+    "बैंक खाता जानकारी"
+   ]
+  },
+  "id": "hp-mukhyamantri-kanyadan-yojana",
+  "level": "state",
+  "name": {
+   "en": "Mukhyamantri Kanyadan Yojana (HP)",
+   "hi": "मुख्यमंत्री कन्यादान योजना"
+  },
+  "rule_explain": {
+   "en": "Girl/woman 18+, HP resident, family annual income up to ₹50,000. For orphans, widows' daughters, and destitute women.",
+   "hi": "बेटी 18+ हो, हिमाचल की निवासी हो, परिवार की आय ₹50,000 से ज़्यादा न हो। अनाथ, विधवा की बेटी, या बेसहारा महिलाओं के लिए है।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "gender",
+    "op": "eq",
+    "value": "female"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 18
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 50000
+   }
+  ],
+  "source_url": "https://himachal.nic.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Via Anganwadi worker, CDPO office, or District Programme Officer",
+   "hi": "आंगनबाड़ी कार्यकर्ता, CDPO ऑफिस या जिला कार्यक्रम अधिकारी के पास"
+  },
+  "benefit": {
+   "en": "One-time grant of ₹31,000 for marriage of a daughter from a BPL family",
+   "hi": "BPL परिवार की बेटी की शादी पर एक बार ₹31,000 की सहायता"
+  },
+  "benefit_value": 31000,
+  "category": "women",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "BPL certificate",
+    "Domicile certificate",
+    "Age proof",
+    "Marriage proof",
+    "Bank account details"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "BPL प्रमाणपत्र",
+    "निवास प्रमाणपत्र",
+    "उम्र का प्रमाण",
+    "शादी का प्रमाण",
+    "बैंक खाता जानकारी"
+   ]
+  },
+  "id": "hp-mukhyamantri-shagun-yojana",
+  "level": "state",
+  "name": {
+   "en": "Mukhyamantri Shagun Yojana (HP)",
+   "hi": "मुख्यमंत्री शगुन योजना"
+  },
+  "rule_explain": {
+   "en": "Girl must be a permanent HP resident, 18+ at marriage, from a BPL family. Unlike Kanyadan (orphans/destitute), Shagun covers daughters of all BPL families.",
+   "hi": "लड़की हिमाचल की स्थायी निवासी हो, शादी के समय 18+ हो, और परिवार BPL सूची में हो। कन्यादान से फर्क: शगुन सभी BPL परिवारों की बेटियों के लिए है।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "gender",
+    "op": "eq",
+    "value": "female"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 18
+   },
+   {
+    "field": "bpl",
+    "op": "eq",
+    "value": true
+   }
+  ],
+  "source_url": "http://himachalpr.gov.in/OnePressRelease.aspx?Language=1&ID=22372",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Online on the Him Parivar e-Kalyan portal (himparivar.hp.gov.in)",
+   "hi": "Him Parivar e-Kalyan पोर्टल (himparivar.hp.gov.in) पर ऑनलाइन"
+  },
+  "benefit": {
+   "en": "₹3,000 per month for treatment of specified serious diseases",
+   "hi": "गंभीर बीमारी के इलाज के लिए हर महीने ₹3,000"
+  },
+  "benefit_value": 36000,
+  "category": "health",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "Income certificate",
+    "Medical certificate of the disease",
+    "Domicile certificate",
+    "Bank passbook"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "आय प्रमाणपत्र",
+    "बीमारी का मेडिकल प्रमाणपत्र",
+    "निवास प्रमाणपत्र",
+    "बैंक पासबुक"
+   ]
+  },
+  "id": "hp-mukhyamantri-sahara-yojana",
+  "level": "state",
+  "name": {
+   "en": "Mukhyamantri Sahara Yojana (HP)",
+   "hi": "मुख्यमंत्री सहारा योजना"
+  },
+  "rule_explain": {
+   "en": "Permanent HP resident, family income up to ₹4 lakh/year, with a doctor-certified serious disease (cancer, kidney failure, thalassemia, paralysis, etc.).",
+   "hi": "हिमाचल का स्थायी निवासी हो, परिवार की आय ₹4 लाख से ज़्यादा न हो, और डॉक्टर के प्रमाण वाली गंभीर बीमारी हो — कैंसर, किडनी फेलियर, थैलेसीमिया, लकवा जैसी।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "annual_income",
+    "op": "lte",
+    "value": 400000
+   }
+  ],
+  "source_url": "https://himparivar.hp.gov.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "File the claim with the block's Subject Matter Specialist (SMS), Agriculture Department, within 2 months",
+   "hi": "ब्लॉक के Subject Matter Specialist (SMS), कृषि विभाग के पास 2 महीने के भीतर दावा जमा करें"
+  },
+  "benefit": {
+   "en": "₹1.5 lakh on death, ₹50,000 on permanent disability, due to farm accidents",
+   "hi": "खेत में दुर्घटना से मौत पर ₹1.5 लाख, स्थायी अपंगता पर ₹50,000 एकमुश्त मुआवज़ा"
+  },
+  "benefit_value": 150000,
+  "category": "agriculture",
+  "documents": {
+   "en": [
+    "Claim form",
+    "Death certificate/FIR/medical report",
+    "Domicile certificate",
+    "Proof of farm work",
+    "Bank account details"
+   ],
+   "hi": [
+    "दावा फॉर्म",
+    "मृत्यु प्रमाणपत्र/FIR/मेडिकल रिपोर्ट",
+    "निवास प्रमाणपत्र",
+    "खेती के काम का प्रमाण",
+    "बैंक खाता जानकारी"
+   ]
+  },
+  "id": "hp-kisaan-khetihar-mazdoor-jeevan-suraksha-yojana",
+  "level": "state",
+  "name": {
+   "en": "Mukhyamantri Kisaan Evam Khetihar Mazdoor Jeevan Suraksha Yojana (HP)",
+   "hi": "मुख्यमंत्री किसान एवं खेतिहर मज़दूर जीवन सुरक्षा योजना"
+  },
+  "rule_explain": {
+   "en": "HP farmer or agricultural labourer (14+) who dies or is permanently disabled in a farm accident (machinery, tube wells, electric current). Claim within 2 months.",
+   "hi": "हिमाचल का किसान या खेतिहर मज़दूर (14+ उम्र) जो खेत की मशीन, ट्यूबवेल या बिजली के करंट से दुर्घटना में मर जाए या स्थायी अपंग हो जाए। दुर्घटना के 2 महीने के भीतर दावा दें।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "age",
+    "op": "gte",
+    "value": 14
+   },
+   {
+    "field": "occupation",
+    "op": "in",
+    "value": [
+     "farmer",
+     "agri_labourer"
+    ]
+   }
+  ],
+  "source_url": "http://himachalpr.gov.in/PressReleaseByYear.aspx?Language=1&ID=1801&Type=2&Date=19/07/2015",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "At the tehsil office or Social Justice & Empowerment Department office",
+   "hi": "तहसील ऑफिस या सामाजिक न्याय एवं अधिकारिता विभाग के कार्यालय में"
+  },
+  "benefit": {
+   "en": "₹1,150 per month pension",
+   "hi": "हर महीने ₹1,150 की पेंशन"
+  },
+  "benefit_value": 13800,
+  "category": "women",
+  "documents": {
+   "en": [
+    "Aadhaar card",
+    "Husband's death certificate",
+    "Domicile certificate",
+    "Bank passbook"
+   ],
+   "hi": [
+    "आधार कार्ड",
+    "पति का मृत्यु प्रमाणपत्र",
+    "निवास प्रमाणपत्र",
+    "बैंक पासबुक"
+   ]
+  },
+  "id": "hp-widow-destitute-single-woman-pension",
+  "level": "state",
+  "name": {
+   "en": "Widow/Destitute/Single Woman Pension Scheme (HP)",
+   "hi": "विधवा/बेसहारा/एकल महिला पेंशन योजना (हिमाचल)"
+  },
+  "rule_explain": {
+   "en": "HP-resident widow, deserted or unmarried woman. Income ceiling removed; no Gram Sabha approval needed.",
+   "hi": "हिमाचल की निवासी विधवा, परित्यक्ता या अविवाहित महिला। अब आय की कोई सीमा नहीं और ग्राम सभा की मंज़ूरी भी नहीं चाहिए।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "gender",
+    "op": "eq",
+    "value": "female"
+   }
+  ],
+  "source_url": "https://himachal.nic.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ },
+ {
+  "apply": {
+   "en": "Through District Child Protection Unit / CDPO / Women & Child Development Department",
+   "hi": "जिला बाल संरक्षण इकाई / CDPO / महिला एवं बाल विकास विभाग के माध्यम से"
+  },
+  "benefit": {
+   "en": "₹4,000/month pocket money + free education, hostel and living support for orphan children",
+   "hi": "अनाथ बच्चों को हर महीने ₹4,000 पॉकेट मनी + मुफ़्त पढ़ाई, हॉस्टल और रहने की सुविधा"
+  },
+  "benefit_value": 48000,
+  "category": "education",
+  "documents": {
+   "en": [
+    "Parents' death certificate",
+    "Himachali Bonafide certificate",
+    "Child's birth certificate",
+    "Aadhaar card"
+   ],
+   "hi": [
+    "माता-पिता का मृत्यु प्रमाणपत्र",
+    "हिमाचली बोनाफाइड प्रमाणपत्र",
+    "बच्चे का जन्म प्रमाणपत्र",
+    "आधार कार्ड"
+   ]
+  },
+  "id": "hp-mukhyamantri-sukhashray-yojana",
+  "level": "state",
+  "name": {
+   "en": "Mukhyamantri Sukhashray Yojana (HP)",
+   "hi": "मुख्यमंत्री सुखाश्रय योजना"
+  },
+  "rule_explain": {
+   "en": "For orphan/destitute children of HP (up to 18 yrs) — 'Children of the State' under the HP Sukhashraya Act, 2023. Covers education, hostel, clothing and pocket money.",
+   "hi": "हिमाचल के अनाथ / बेसहारा बच्चों (18 साल तक) के लिए — HP Sukhashraya Act, 2023 के तहत 'राज्य के बच्चे' का दर्जा। पढ़ाई, हॉस्टल, कपड़े और जेब खर्च सब सरकार देती है।"
+  },
+  "rules": [
+   {
+    "field": "state",
+    "op": "eq",
+    "value": "himachal_pradesh"
+   },
+   {
+    "field": "age",
+    "op": "lte",
+    "value": 18
+   }
+  ],
+  "source_url": "https://himachal.nic.in",
+  "states": [
+   "himachal_pradesh"
+  ]
+ }
+]
